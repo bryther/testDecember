@@ -1,7 +1,12 @@
-
+package ToetsVersiebeheer;
 public class TestDecember {
 
     public static void main(String[]args) {
-        System.out.println("Hello world!");
+        TestDecember printer = new TestDecember();
+        printer.PrintHelloWorld();
     } 
+    
+    public void PrintHelloWorld() {
+    	System.out.println("Hello world!");
+    }
 }
